@@ -1,0 +1,174 @@
+<html>
+  <head>
+    <title>我的账号 - AIRTCP(HK)</title>
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
+      name="viewport"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="https://cdn.staticfile.org/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/css.css" />
+    <link rel="stylesheet" type="text/css" href="./css/p.css" />
+
+    <script>
+      var x = true;
+      function openNav() {
+        document.getElementById("Side").style.width = "16%";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.getElementById("a").style.width = "77.1%";
+        document.getElementById("a").style.marginLeft = "19%";
+        document.getElementById("IP").style.width = "77.1%";
+        document.getElementById("IP").style.marginLeft = "19%";
+        document.getElementById("bq").style.marginLeft = "19%";
+        document.getElementById("P").style.marginLeft = "19%";
+        document.getElementById("P").style.width = "38%";
+        document.getElementById("B").style.width = "38%";
+        document.getElementById("D").style.marginLeft = "19%";
+        document.getElementById("D").style.width = "38%";
+        document.getElementById("Hi").style.marginLeft = "19%";
+        x = !x;
+      }
+      function closeNav() {
+        document.getElementById("Side").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.getElementById("a").style.width = "93.4%";
+        document.getElementById("a").style.marginLeft = "2.8%";
+        document.getElementById("IP").style.width = "93.4%";
+        document.getElementById("IP").style.marginLeft = "2.8%";
+        document.getElementById("bq").style.marginLeft = "2.8%";
+        document.getElementById("P").style.marginLeft = "2.8%";
+        document.getElementById("P").style.width = "46%";
+        document.getElementById("B").style.width = "46%";
+        document.getElementById("D").style.marginLeft = "2.8%";
+        document.getElementById("D").style.width = "46%";
+        document.getElementById("Hi").style.marginLeft = "2.8%";
+        x = !x;
+      }
+      function myFunction() {
+        x == false ? openNav() : closeNav();
+      }
+    </script>
+  </head>
+  <body>
+    <!--侧栏-->
+    <div id="Side" class="side">
+      <a href="#"> <h3>AIRTCP纸飞机</h3></a>
+      <a href="#"><i class="fab fa-fort-awesome"></i> &nbsp;首页</a>
+      <a href="#"><i class="fas fa-store"></i> &nbsp;商店</a>
+      我的
+      <a href="#" style="color: #6777ef; border-left: 5px solid #6777ef"
+        ><i class="fas fa-user" style="color: #6777ef"></i> &nbsp;我的账号</a
+      >
+      <a href="#"><i class="fas fa-wallet"></i> &nbsp;我的钱包</a>
+      <a href="#"><i class="fas fa-laugh-squint"></i> &nbsp;邀请注册</a>
+      使用
+
+      <a href="#"><i class="fas fa-server"></i> &nbsp;节点列表</a>
+      <a href="tutorial.html"><i class="fas fa-book"></i> 下载和教程</a>
+      <a href="#"><i class="fas fa-stream"></i> &nbsp;订阅记录</a>
+      <a href="#"><i class="fas fa-share"></i> &nbsp;共享账号</a>
+      <a href="#"
+        ><i class="fas fa-headset"></i>
+        &nbsp;工单支持&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a
+      >
+      <a href="#"
+        ><i class="fas fa-cog"></i>
+        &nbsp;节点设置&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a
+      >
+      <a href="#"
+        ><i class="fas fa-balance-scale"></i>
+        &nbsp;审计系统&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a
+      >
+      <fieldset>
+        <i class="fab fa-telegram-plane" style="margin: 12px 12px"></i>
+        加入 Telegram 群组
+      </fieldset>
+    </div>
+    <!--主体-->
+    <div id="main">
+      <span>
+        <a
+          style="font-size: 25px; cursor: pointer; color: white"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+        <a href="#" class="language">
+          <i class="fas fa-language"> </i> 简体中文
+        </a>
+        <a href="#" class="user">
+          <i
+            class="icon ion-ios-person"
+            style="font-size: 25px; border-radius: 13px"
+          ></i>
+          &nbsp; Hi,... <i class="icon ion-arrow-down-b"></i>
+        </a>
+      </span>
+      <span class="header"></span>
+      <span class="section1" id="a"><p>我的账号</p></span>
+      <span class="bc">
+        <span id="Hi" class="hi">
+            <span>           <p>Hi,...!</p></span>
+
+        </span>
+        <span id="P" class="password">
+          <a href="#">
+            <span><i class="fas fa-lock"></i></span
+          ></a>
+          <p class="b">修改密码</p>
+          <p class="s">定期修改为高强度密码以保护您的账号</p>
+          <a href="#"><p class="c">立即修改 ></p></a></span
+        >
+        <span id="B" class="bind">
+          <a href="#">
+            <span><i class="fab fa-telegram-plane"></i></span
+          ></a>
+          <p class="b">绑定 Telegram 账号</p>
+          <p class="s">
+            绑定后可以使用 Telegram 快速登录网站和机器人
+            <a href="#">@AirTCPBot</a>
+          </p>
+          <a href="#"><p class="c">立即绑定 ></p></a>
+        </span>
+        <span id="D" class="delete">
+          <a href="#">
+            <span><i class="fas fa-skull"></i></span
+          ></a>
+          <p class="b">删除账号</p>
+          <p class="s">你的所有数据都会被删除，无法找回</p>
+          <a href="#"><p class="c">申请删除 ></p></a>
+        </span>
+        <span id="IP" class="ip">
+          <p>最近五分钟使用IP</p>
+          <span>
+            <pre>IP</pre>
+            <pre>地点</pre>
+          </span>
+          <div>
+            <pre>220.160.125.206</pre>
+            <pre>福建省厦门市电信</pre>
+        </div>
+        </span>
+      </span>
+      <span class="chat"
+        ><a href="#"><i class="icon ion-chatbubble"></i></a
+      ></span>
+      <span class="footer" id="bq"
+        >2020 © AIRTCP(HK) · Powered by <a href="#">SSPANEL</a> · Theme by
+        <a href="#">eidtXY</a>
+      </span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+.windows {
+  height: 110px;
+  width: 36.7%;
+  margin-left: 19%;
+  margin-top: 70px;
+  position: absolute;
+  background: -webkit-linear-gradient(bottom, #2c9fe5, #057cd9);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #2c9fe5;
+}
+.windows:hover{
+  background: -webkit-linear-gradient(top, #2c9fe5, #057cd9);
+}
+.windows i {
+  position: absolute;
+  font-size: 110px;
+  right: -15px;
+  bottom: 20px;
+  color: #2fa1e6;
+}
+.windows p {
+  position: absolute;
+  color: white;
+  margin: 20px 40px;
+  z-index: 1;
+}
+#W {
+  transition: all 0.5s;
+}
+.android {
+  height: 110px;
+  width: 36.7%;
+  right: 0;
+  margin-right: 3.9%;
+  margin-top: 70px;
+  position: absolute;
+  background: -webkit-linear-gradient(bottom, #97db47, #6db644);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #97db47;
+}
+.android:hover{
+  background: -webkit-linear-gradient(top, #97db47, #6db644);
+}
+.android i {
+  position: absolute;
+  font-size: 110px;
+  right: -15px;
+  bottom: 20px;
+  color: #98dc47;
+}
+.android p {
+  position: absolute;
+  color: white;
+  margin: 20px 40px;
+  z-index: 1;
+}
+#An {
+  transition: width 0.5s;
+}
+.apple {
+  height: 110px;
+  width: 36.7%;
+  margin-left: 19%;
+  margin-top: 230px;
+  position: absolute;
+  background: -webkit-linear-gradient(bottom, #353535, #030303);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #353535;
+}
+.apple:hover{
+  background: -webkit-linear-gradient(top, #353535, #030303);
+}
+.apple i {
+  position: absolute;
+  font-size: 110px;
+  right: -15px;
+  bottom: 20px;
+  color: #363636;
+}
+.apple p {
+  position: absolute;
+  color: white;
+  margin: 20px 40px;
+  z-index: 1;
+}
+#Ap {
+  transition: all 0.5s;
+}
+.finder {
+  height: 110px;
+  width: 36.7%;
+  right: 0;
+  margin-right: 3.9%;
+  margin-top: 230px;
+  position: absolute;
+  background: -webkit-linear-gradient(bottom, #afb3b8, #878888);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #afb3b8;
+}
+.finder:hover{
+  background: -webkit-linear-gradient(top, #afb3b8, #878888);
+}
+.finder i {
+  position: absolute;
+  font-size: 110px;
+  right: -15px;
+  bottom: 20px;
+  color: #b2b6bc;
+}
+.finder p {
+  position: absolute;
+  color: white;
+  margin: 20px 40px;
+  z-index: 1;
+}
+#M {
+  transition: width 0.5s;
+}
+.linux {
+  height: 110px;
+  width: 36.7%;
+  margin-left: 19%;
+  margin-top: 390px;
+  position: absolute;
+  background: -webkit-linear-gradient(bottom, #fdbe66, #ffa527);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #fdbe66;
+}
+.linux:hover {
+  background: -webkit-linear-gradient(top, #fdbe66, #ffa527);
+}
+.linux i {
+  position: absolute;
+  font-size: 110px;
+  right: -15px;
+  bottom: 20px;
+  color: #fdbe67;
+}
+.linux p {
+  position: absolute;
+  color: white;
+  margin: 20px 40px;
+  z-index: 1;
+}
+#L {
+  transition: all 0.5s;
+}
+.surprise {
+  height: 110px;
+  width: 36.7%;
+  right: 0;
+  margin-right: 3.9%;
+  margin-top: 390px;
+  position: absolute;
+  background: -webkit-linear-gradient(bottom, #939ef4, #6979f0);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #939ef4;
+}
+.surprise:hover {
+  background: -webkit-linear-gradient(top, #939ef4, #6979f0);
+}
+.surprise i {
+  position: absolute;
+  font-size: 110px;
+  right: -15px;
+  bottom: 20px;
+  color: #8c98f3;
+}
+.surprise p {
+  position: absolute;
+  color: white;
+  margin: 20px 40px;
+  z-index: 1;
+}
+#F {
+  transition: width 0.5s;
+}

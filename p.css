@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+.password {
+    height: 110px;
+    width: 38%;
+    margin-left: 19%;
+    margin-top: 110px;
+    position: absolute;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 2px 5px lightgray;
+  }
+  .password span{
+    height: 110px;
+    width: 110px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 60px;
+    position: absolute;
+    background-color: #6777ef;
+    color: white;
+    border-radius: 3px;
+  }
+  #Hi{
+      transition: all 0.5s;
+  }
+  .hi{
+      width: 30px;
+      height: 10px;
+      border-radius: 5px;
+      background-color: #6777ef;
+      position: absolute;
+      margin-left: 19%;
+      margin-top: 50px;
+  }
+  .hi span{
+    position: absolute;
+    margin-left: 115%;
+    margin-top: -10px;
+}
+  #P{
+      transition: all 0.5s;
+  }
+  .bind {
+    height: 110px;
+    width: 38%;
+    right: 0;
+    margin-right: 3.9%;
+    margin-top: 110px;
+    position: absolute;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 2px 5px lightgray;
+  }
+  .bind span{
+    height: 110px;
+    width: 110px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 60px;
+    position: absolute;
+    background-color: #6777ef;
+    color: white;
+    border-radius: 3px;
+  }
+  #B{
+    transition: all 0.5s;
+  }
+  .delete {
+    height: 110px;
+    width: 38%;
+    margin-left: 19%;
+    margin-top: 240px;
+    position: absolute;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 2px 5px lightgray;
+  }
+  .delete span{
+    height: 110px;
+    width: 110px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 60px;
+    position: absolute;
+    background-color: #6777ef;
+    color: white;
+    border-radius: 3px;
+  }
+  #D{
+    transition: all 0.5s;
+  }
+  .b{   
+      font-size: 20px;
+      margin-top: 20px;
+      margin-left: 130px;
+      font-weight: 700;
+  }
+  .s{
+      font-size: 10px;
+      margin-top: -15px;
+      margin-left: 130px;
+      color: #818181;
+  }
+
+.c{
+    font-size: 10px;
+    margin-top: -10px;
+    margin-left: 130px;
+    color: #6777ef;
+}
+.ip {
+    padding: 1%;
+    background-color: white;
+    margin-top: 370px;
+    left: 0;
+    margin-left: 19%;
+    width: 77.1%;
+    height: 200px;
+    position: absolute;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px lightgray;
+    transition: all 0.5s;
+}
+.ip p {
+    font-size: 15px;
+    color: #6777ef;
+}
+.ip span pre {
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+    margin-right: 45%;
+}
+.ip div pre {
+    font-size: 14px;
+    color: gray;
+    display: inline-block;
+    margin-right: 36%;
+}
+.ip span{
+    padding: 13px;
+    background-color:#f5f5f5;
+    margin-top: 10px;
+    width: 97.5%;
+    height: 50px;
+    position: absolute;
+    border-radius: 2px;
+}
+.ip div{
+    padding: 13px;
+    background-color:#fafafa;
+    margin-top: 60px;
+    width: 97.5%;
+    height: 50px;
+    position: absolute;
+    border-radius: 2px;
+}
